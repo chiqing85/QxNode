@@ -1,0 +1,19 @@
+{
+  "name": "qinglao",
+  "version": "2.0.2",
+  "description": "{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}",
+  "main": "index.js",
+  "scripts": {
+    "start": "node web/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:qq_chiqinga/qingliao.git"
+  },
+  "author": "chiqing_85",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0"
+  }
+}
