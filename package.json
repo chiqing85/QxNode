@@ -14,10 +14,10 @@
     "type": "git",
     "url": "git@github.com:chiqing85/QxNode.git"
   },
-
   "dependencies": {
     "koa": "^2.7.0",
     "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
     "koa-views": "^6.1.5",
     "nunjucks": "^3.2.0"
   }

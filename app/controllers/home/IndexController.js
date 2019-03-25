@@ -4,7 +4,7 @@ module.exports = class Index {
 			content: 'QxNode.js v2.0.1',
 			title: 'hi, QxNode'
 		}
-		await ctx.render('index', data)
+		await ctx.render('home/index/index', data)
 	}
 
 	async show(ctx, next) {
