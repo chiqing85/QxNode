@@ -2,7 +2,7 @@ module.exports = class Index {
 	async index(ctx, next) {
 		let data = {
 			content: 'QxNode.js v2.0.1',
-			title: 'hi, QxNode'
+			title: 'hi, friend !'
 		}
 		await ctx.render('home/index/index', data)
 	}
