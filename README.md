@@ -1,4 +1,5 @@
-# QxNode.js `v2.0.1`
+# QxNode.js # 
+`v2.0.1`
 
 #### 介绍
 QxNode.js 是基于 koa2 的一款 mvc框架<br/>
