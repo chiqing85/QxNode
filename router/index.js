@@ -1,4 +1,4 @@
 module.exports = [
-	['get', '/', 'IndexController@index'],
-	['get', '/index', 'IndexController@show']
+	['get', '/', 'home/IndexController@index'],
+	['get', '/show', 'home/IndexController@show']
 ]
