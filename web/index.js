@@ -1,10 +1,7 @@
-let koa = require('koa')
-app = new koa()
+// 当前程序路径
+let path = process.cwd(),
+	{ options } = require(path + '/config/config'),
+	index = require(path + '/lib/index')
 
-app.use(async (ctx, next) => {
-	ctx.body = '<h1>Hello Node.js</h1>'
-})
-
-app.listen(8080)
-
-console.log("app started at port " + 8080 + "...")
+let app = new index( options )
+app.init()
