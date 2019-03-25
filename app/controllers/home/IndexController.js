@@ -8,7 +8,6 @@ module.exports = class Index {
 	}
 
 	async show(ctx, next) {
-
 		ctx.body = "<h1>holle word!</h1>"
 	}
 }
