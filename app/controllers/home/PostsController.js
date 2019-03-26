@@ -4,4 +4,8 @@ module.exports = class Posts {
 		let id = ctx.params['id']
 		ctx.body = `这是文章${id}页面`
 	}
+
+	async list(ctx, next) {
+		ctx.body = '这是文章列表页'
+	}
 }
