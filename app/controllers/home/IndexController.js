@@ -9,6 +9,6 @@ module.exports = class Index {
 
 	async show(ctx, next) {
 		let param = ctx.params['param']
-		ctx.body = `<h1>${param}holle word!</h1>`
+		ctx.body = `<h1>holle word!</h1><span>${param}</span>`
 	}
 }
