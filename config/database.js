@@ -11,6 +11,6 @@ module.exports.database = {
 	username: 'homestead',
 	// 密码
 	password: 'secret',
-	// 服务器地址
+	// 服务器端口
 	port: 3306
 }

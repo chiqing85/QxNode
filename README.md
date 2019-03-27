@@ -12,9 +12,15 @@ QxNode.js 是基于 koa2 的一款单入口 mvc框架<br/>
 
 
 #### 安装教程
-1. `git pull git@github.com:chiqing85/QxNode.git`
-2. `npm install`
-3. `npm run dev`
+1. ```git
+git pull git@github.com:chiqing85/QxNode.git
+```
+2. ```git
+npm install
+```
+3. ```
+npm run dev
+```
 
 #### 使用说明
 
