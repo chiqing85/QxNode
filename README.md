@@ -29,5 +29,6 @@ QxNode.js 是基于 koa2 的一款单入口 mvc框架<br/>
 2. 新建 Feat_xxx 分支
 3. 提交代码
 4. 新建 Pull Request
+5. 解决冲突
 
 - `码云README`
